@@ -1,6 +1,6 @@
 # GrapeTree
 
-This is forked version of GrapeTree which will only contain the content responsible for drawing trees on the front-end. With this version, there won't be a need for hosting a server with a specific version of GrapeTree, and the software can be tailored towards your specific application.
+This is forked version of GrapeTree which will only contain the content responsible for drawing trees on the client-side. With this version, there won't be a need for hosting a server with a specific version of GrapeTree, and the software can be tailored towards your specific application.
 
 
 
@@ -19,52 +19,6 @@ This is forked version of GrapeTree which will only contain the content responsi
 Developers may wish to look at the [JavaScript documentation](https://achtman-lab.github.io/GrapeTree/documentation/developer/index.html) (JSDoc).
 
 There you can find the functionalities of the scripts which produce the trees.
-
-
-
-## Inputs
-#### profile
-The profile file is a tab-delimited text file.
-
-Follow an example here: https://github.com/achtman-lab/GrapeTree/blob/master/examples/simulated_data.profile
-```
-#Strain	Gene_1	Gene_2	Gene_3	Gene_4	Gene_5	Gene_6	Gene_7	...
-0	1	1	1	1	1	1	1	...
-1	1	1	1	1	1	1	1	...
-2	1	2	2	2	2	2	2	...
-...
-```
-The first row is required and represents column labels. It has to start with a '#'. Collumn labels that start with a '#' are treated as comments and will not be used in downstream analysis. The first column needs to be unique identifiers for strains.
-Each of the remaining rows presents a different strain.
-
-Use '-' or '0' to represent missing alleles. 
-
-#### Aligned FASTA
-An aligned FASTA file contains multiple sequences of the same length in FASTA format. Many sequence alignment tools, e.g., MAFFT and MUSCLE, use FASTA as a default format for their outputs. 
-
-Find an example here: http://wwwabi.snv.jussieu.fr/public/Clustal2Dna/fastali.html
-
-Note that GrapeTree supports only p-distance for the moment.  
-
-#### metadata
-The metadata file is either a tab-delimited or a comma-delimited text file. This is only used for tree presentation in the standardalone version.
-
-Follow an example here: https://github.com/achtman-lab/GrapeTree/blob/master/examples/simulated_data.metadata.txt
-```
-ID	Country	Year
-0	China	1983
-1	China	1984
-...
-```
-The first row is required and describes the labels of the columns. If a column labeled with "ID" presents, it will be used to correlate metadata with profiles, otherwise the first column will be used.
-
-## outputs
-#### tree
-The tree is described in NEWICK format. https://en.wikipedia.org/wiki/Newick_format
-
-#### distance matrix
-Use the option '--method distance' to generate a distance matrix without calculating the tree.
-The matrix is presented in PHYLIP format. http://evolution.genetics.washington.edu/phylip/doc/distance.html
 
 
 ## License
