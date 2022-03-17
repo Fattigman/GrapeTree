@@ -1,6 +1,6 @@
 # GrapeTree
 
-This is forked version of GrapeTree which will only contain the content responsible for drawing trees on the client-side. With this version, there won't be a need for hosting a server to run GrapeTree, and the software can be tailored towards your specific application.
+This is forked version of GrapeTree which will only contain the scripts responsible for drawing trees on the client-side. With this version, there won't be a need for hosting a server to run GrapeTree, and the software can be tailored towards your specific application.
 
 
 To use GrapeTree visualization tools include the scripts found in the js folder to your project and then follow the [documentation](https://achtman-lab.github.io/GrapeTree/documentation/developer/index.html).
