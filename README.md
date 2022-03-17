@@ -21,8 +21,6 @@ Developers may wish to look at the [JavaScript documentation](https://achtman-la
 There you can find the functionalities of the scripts which produce the trees.
 
 
-NOTE:
-* Detailed descriptions for [--matrix](https://github.com/achtman-lab/GrapeTree/blob/master/documentation/asymmetricDistances.pdf), [--recraft](https://github.com/achtman-lab/GrapeTree/blob/master/documentation/branchRecrafting.pdf) and [--heuristic](https://github.com/achtman-lab/GrapeTree/blob/master/documentation/tiebreak.pdf)
 
 ## Inputs
 #### profile
