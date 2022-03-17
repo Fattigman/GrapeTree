@@ -15,6 +15,8 @@ This is forked version of GrapeTree which will only contain the content responsi
 ### Documentation
 
 Developers may wish to look at the [JavaScript documentation](https://achtman-lab.github.io/GrapeTree/documentation/developer/index.html) (JSDoc). Here you can find the functionalities of the scripts which produce the trees.
+
+
 For detailed help please see: [http://enterobase.readthedocs.io/en/latest/grapetree/grapetree-about.html](http://enterobase.readthedocs.io/en/latest/grapetree/grapetree-about.html)
 
 
