@@ -5,8 +5,20 @@ This is forked version of GrapeTree which will only contain the scripts responsi
 
 To use GrapeTree visualization tools include the scripts found in the js folder to your project and then follow the [documentation](https://achtman-lab.github.io/GrapeTree/documentation/developer/index.html).
 
+## Minimum running example of current version
 
-
+Include the js files in an appropiate folder where you keep your js scripts.
+Then to initialize, import the scripts to your html, create a div and include the following snippet:
+```html
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/d3.min.js"></script>
+<script src="js/base_tree.js"></script>
+<script src="js/d3_m_tree.js"></script>
+<div id="tree-holder" style="width:400px;height:400px;"></div>
+<script>
+var tree = new D3MSTree("tree-holder", data);
+</script>
+```
 
 
 
