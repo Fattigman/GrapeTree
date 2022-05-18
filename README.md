@@ -8,7 +8,7 @@ To use GrapeTree visualization tools include the scripts found in the js folder 
 ## Minimum running example of current version
 
 Include the js files in an appropiate folder where you keep your js scripts.
-Then to initialize, import the scripts to your html, create a div and include the following snippet:
+Then to initialize, include the following snippet in your html:
 ```html
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/d3.min.js"></script>
