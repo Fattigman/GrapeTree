@@ -1,0 +1,22 @@
+{
+  "name": "grapetree",
+  "version": "1.0.0",
+  "description": "This is forked version of GrapeTree which will only contain the scripts responsible for drawing trees on the client-side. With this version, there won't be a need for hosting a server to run GrapeTree, and the software can be tailored towards your specific application.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fattigman/GrapeTree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fattigman/GrapeTree/issues"
+  },
+  "homepage": "https://github.com/Fattigman/GrapeTree#readme"
+}
