@@ -1,3 +1,6 @@
+import jquery from 'jquery';
+import d3 from 'd3';
+
 D3MSTree.prototype = Object.create(D3BaseTree.prototype);
 D3MSTree.prototype.constructor = D3MSTree;
 
@@ -31,7 +34,7 @@ D3MSTree.prototype.constructor = D3MSTree;
 * @param {integer} height - the initial height (optional)
 * @param {integer} width - the initial width  (optional)
 */
-function D3MSTree(element_id,data,callback,height,width){
+export default function D3MSTree(element_id,data,callback,height,width){
         
         D3BaseTree.call(this,element_id,data['metadata'],height,width);
         var self =this;
